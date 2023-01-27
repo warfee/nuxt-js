@@ -1,0 +1,28 @@
+Nuxt Js Steps
+
+1) Put all assets files in assets folder (self generate)
+
+2) Configure nuxt.config.js (Refer Documentation)
+
+- layouts every page converted to json nuxt format and self setting/setup
+
+2.1) Head - script:[{}] - available to every page
+2.2) CSS - available to every page 
+
+3) Layouts
+- Add layouts folder to make default layouts
+- Default layouts will automatically extends to all pages that do not set any specific layouts
+
+- routing will be by pages
+- pages will extends specific layouts
+- add <Nuxt/> tag in layouts that will be use by pages's files to extends components
+- also can add component to layouts
+
+4) Routing (/pages directory) use <NuxtLink> tag
+
+- index.vue (http://domain.com)
+- auth
+ - login (http://domain.com/auth/login)
+ - register (http://domain.com/auth/register)
+
+
